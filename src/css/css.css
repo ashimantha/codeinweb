@@ -1,0 +1,82 @@
+
+body , html{
+    margin: 0;
+    padding: 0;
+
+}
+ul#nav {
+    box-shadow:  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul#nav li {
+    float: left;
+  }
+  
+  ul#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  ul#nav li a:hover {
+    background-color: rgb(24, 64, 175);
+  }
+h1{
+text-align:center;
+} 
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .main-img {
+    width: 100%;
+  }
+
+  h2{
+    text-align: center;
+  }
+  .left-side {
+    height: auto;
+    width: 60%;
+    float: left;
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .right-side {
+    height: auto;
+    width: 30%;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .main-im {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+   table{
+     width: 50%;
+
+   }
+   th{
+     height: 50px;
+   }
